@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jobs Portal</title>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <!--Main Navigation-->
+    <header id="banner">
+        <div class="color-overly">
+            <!--Navbar-->
+            <nav class="navbar navbar-expand-lg navbar-dark scrolling-navbar">
+                <div class="container">
+                    <!-- Navbar brand -->
+                    <a class="navbar-brand" href="#">
+                        <img src="images/logo.png" alt="" class="logo">
+                    </a>
+                    <!-- Collapse button -->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- Collapsible content -->
+                    <div class="collapse navbar-collapse" id="basicExampleNav">
+                        <!-- Links -->
+                        <ul class="navbar-nav mr-auto smooth-scroll">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Home <i class="fa fa-angle-down" aria-hidden="true"></i> </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#best-features">Jobs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#examples">Company</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#gallery">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact Us</a>
+                            </li>
+                        </ul>
+                        <!-- Links -->
+                        <!-- Social Icon  -->
+                        <ul class="navbar-nav nav-flex-icons">
+                            <li class="nav-item">
+                                <a href="" class="nav-link"><i class="fa fa-user" aria-hidden="true"></i> Sign Up</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link"><i class="fa fa-lock" aria-hidden="true"></i> Log In</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Collapsible content -->
+
+                </div>
+
+            </nav>
+            <!--/.Navbar-->
+            <!--Mask-->
+            <div id="intro" class="view">
+                <div class="mask">
+                    <div class="container d-flex h-100">
+                        <div class="row d-flex">
+                            <div class="col text-white">
+                                <!-- Heading -->
+                                <h1 class="display-4 lead pt-5 mb-2 count-job"><span class="theme-color"> 3,000+ </span> Browse Jobs</h1>
+                                <span class="job_tag"> Find Jobs, Employment & Career Opportunities </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--/.Mask-->
+            <!--Mask-->
+            <div id="job_search" class="">
+                <div class="">
+                    <div class="container d-flex h-100">
+                        <div class="row d-flex d-block">
+                            <div class="col-12">
+                                <form action="" class="job_search_form">
+                                    <input type="text" placeholder="Keyword e.g. (Job Title )">
+                                    <select id="category" placeholder="Category">
+                                        <option value="">Category</option>
+                                        <option value="">Category 1</option>
+                                        <option value="">Category 2</option>
+                                        <option value="">Category 3</option>
+                                        <option value="">Category 4</option>
+                                    </select>
+                                    <button type="button" class="btn serach-btn"><i class="fa fa-search" aria-hidden="true"></i> Search</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--/.Mask-->
+            
+            <!--    Job Category    -->
+            <div id="job_category">
+                <div class="container ">
+                    <div class="row category d-flex justify-content-center">
+                        <div class="job_category_item">
+                            <a href="#">
+                                <span class="icon"> <i class="fa fa-code" aria-hidden="true"></i> </span>
+                                <h2>Developer</h2>
+                                <span>(240 jobs)</span>
+                            </a>
+                        </div>
+                        <div class="job_category_item active">
+                            <a href="#">
+                                <span class="icon"> <i class="fa fa-laptop" aria-hidden="true"></i> </span>
+                                <h2>Technology</h2>
+                                <span>(504 jobs)</span>
+                            </a>
+                        </div>
+                        <div class="job_category_item">
+                            <a href="#">
+                                <span class="icon"> <i class="fa fa-code" aria-hidden="true"></i> </span>
+                                <h2>Accounting</h2>
+                                <span>(2250 jobs)</span>
+                            </a>
+                        </div>
+                        <div class="job_category_item">
+                            <a href="#">
+                                <span class="icon"> <i class="fa fa-code" aria-hidden="true"></i> </span>
+                                <h2>Medical</h2>
+                                <span>(202 jobs)</span>
+                            </a>
+                        </div>
+                        <div class="job_category_item">
+                            <a href="#">
+                                <span class="icon"> <i class="fa fa-code" aria-hidden="true"></i> </span>
+                                <h2>Government</h2>
+                                <span>(1457 jobs)</span>
+                            </a>
+                        </div>
+                        <div class="job_category_item">
+                            <a href="#">
+                                <span class="icon"> <i class="fa fa-code" aria-hidden="true"></i> </span>
+                                <h2>All Jobs</h2>
+                                <span>(2000+ jobs)</span>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <!--Main Navigation-->
+
+    <!--Main layout-->
+    <main class="mt-5">
+        <div class="container">
+            <!--Section: Best Features-->
+            <section id="job-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="job-content">
+                            <div class="title_content">
+                                <!-- Tab panes -->
+                                <div class="tab-content">
+                                    <div class="tab-pane active" id="hometab">
+                                        <h1 class="job-cat-title">Recent Jobs</h1>
+                                        <div class="container mt-5">
+                                            <div class="row">
+                                                <!--       Job item start          -->
+                                                <div class="col-lg-6 col-sm-6 mt-5">
+                                                    <!-- Card -->
+                                                    <div class="card job-item">
+                                                        <div class="row">
+                                                            <div class="col-lg-3 col-sm-3 mt-4">
+                                                                <div class="job-item-logo">
+                                                                    <img src="images/logo.jfif" alt="" class="">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-6 col-sm-6 mt-4 mb-4">
+                                                                <div class="job-item-content">
+                                                                    <div class="row">
+                                                                        <div class="col-9 col-sm-9">
+                                                                            <h2 class="job-title"> HTML Developer</h2>
+                                                                            <a href="" class="company-name"> Webstrot Technology Pvt. Ltd. </a>
+                                                                        </div>
+                                                                        <div class="col-3 col-sm-3">
+                                                                            <div class="job-item-like">
+                                                                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="job-item-pay"> <i class="fa fa-cc-paypal" aria-hidden="true"></i> <strong> $12k - 15k P.A.</strong></div>
+                                                                    <div class="job-item-location"> <i class="fa fa-map-marker" aria-hidden="true"></i> Caliphonia, PO 455001 </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-3 col-sm-3 mt-4">
+                                                                <div class="job-item-action">
+                                                                    <a href="#" class="btn btn-job-type">Part Time</a>
+                                                                    <a href="#" class="btn btn-apply">Apply</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-lg-12 mt-3">
+                                                                <div class="job-item-keywords">
+                                                                    <i class="fa fa-location-arrow" aria-hidden="true"></i> Keyword : <span> ui designer, developer, senior </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Card -->
+                                                </div>
+                                                <!--     job item end-->
+
+                                                <!--       Job item start          -->
+                                                <div class="col-lg-6 mt-5">
+                                                    <!-- Card -->
+                                                    <div class="card job-item">
+                                                        <div class="row">
+                                                            <div class="col-lg-3 mt-4">
+                                                                <div class="job-item-logo">
+                                                                    <img src="images/logo.jfif" alt="" class="">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-6 mt-4 mb-4">
+                                                                <div class="job-item-content">
+                                                                    <div class="row">
+                                                                        <div class="col-9">
+                                                                            <h2 class="job-title"> HTML Developer</h2>
+                                                                            <a href="" class="company-name"> Webstrot Technology Pvt. Ltd. </a>
+                                                                        </div>
+                                                                        <div class="col-3">
+                                                                            <div class="job-item-like">
+                                                                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="job-item-pay"> <i class="fa fa-cc-paypal" aria-hidden="true"></i> <strong> $12k - 15k P.A.</strong></div>
+                                                                    <div class="job-item-location"> <i class="fa fa-map-marker" aria-hidden="true"></i> Caliphonia, PO 455001 </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-3 mt-4">
+                                                                <div class="job-item-action">
+                                                                    <a href="#" class="btn btn-job-type">Part Time</a>
+                                                                    <a href="#" class="btn btn-apply">Apply</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-lg-12 mt-3">
+                                                                <div class="job-item-keywords">
+                                                                    <i class="fa fa-location-arrow" aria-hidden="true"></i> Keyword : <span> ui designer, developer, senior </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Card -->
+                                                </div>
+                                                <!--     job item end-->
+
+                                                <!--       Job item start          -->
+                                                <div class="col-lg-6 mt-5">
+                                                    <!-- Card -->
+                                                    <div class="card job-item">
+                                                        <div class="row">
+                                                            <div class="col-lg-3 mt-4">
+                                                                <div class="job-item-logo">
+                                                                    <img src="images/logo.jfif" alt="" class="">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-6 mt-4 mb-4">
+                                                                <div class="job-item-content">
+                                                                    <div class="row">
+                                                                        <div class="col-9">
+                                                                            <h2 class="job-title"> HTML Developer</h2>
+                                                                            <a href="" class="company-name"> Webstrot Technology Pvt. Ltd. </a>
+                                                                        </div>
+                                                                        <div class="col-3">
+                                                                            <div class="job-item-like">
+                                                                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="job-item-pay"> <i class="fa fa-cc-paypal" aria-hidden="true"></i> <strong> $12k - 15k P.A.</strong></div>
+                                                                    <div class="job-item-location"> <i class="fa fa-map-marker" aria-hidden="true"></i> Caliphonia, PO 455001 </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-3 mt-4">
+                                                                <div class="job-item-action">
+                                                                    <a href="#" class="btn btn-job-type">Part Time</a>
+                                                                    <a href="#" class="btn btn-apply">Apply</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-lg-12 mt-3">
+                                                                <div class="job-item-keywords">
+                                                                    <i class="fa fa-location-arrow" aria-hidden="true"></i> Keyword : <span> ui designer, developer, senior </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Card -->
+                                                </div>
+                                                <!--     job item end-->
+
+                                                <!--       Job item start          -->
+                                                <div class="col-lg-6 mt-5">
+                                                    <!-- Card -->
+                                                    <div class="card job-item">
+                                                        <div class="row">
+                                                            <div class="col-lg-3 mt-4">
+                                                                <div class="job-item-logo">
+                                                                    <img src="images/logo.jfif" alt="" class="">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-6 mt-4 mb-4">
+                                                                <div class="job-item-content">
+                                                                    <div class="row">
+                                                                        <div class="col-9">
+                                                                            <h2 class="job-title"> HTML Developer</h2>
+                                                                            <a href="" class="company-name"> Webstrot Technology Pvt. Ltd. </a>
+                                                                        </div>
+                                                                        <div class="col-3">
+                                                                            <div class="job-item-like">
+                                                                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="job-item-pay"> <i class="fa fa-cc-paypal" aria-hidden="true"></i> <strong> $12k - 15k P.A.</strong></div>
+                                                                    <div class="job-item-location"> <i class="fa fa-map-marker" aria-hidden="true"></i> Caliphonia, PO 455001 </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-3 mt-4">
+                                                                <div class="job-item-action">
+                                                                    <a href="#" class="btn btn-job-type">Part Time</a>
+                                                                    <a href="#" class="btn btn-apply">Apply</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-lg-12 mt-3">
+                                                                <div class="job-item-keywords">
+                                                                    <i class="fa fa-location-arrow" aria-hidden="true"></i> Keyword : <span> ui designer, developer, senior </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Card -->
+                                                </div>
+                                                <!--     job item end-->
+                                                <!--       Job item start          -->
+                                                <div class="col-lg-6 mt-5">
+                                                    <!-- Card -->
+                                                    <div class="card job-item">
+                                                        <div class="row">
+                                                            <div class="col-lg-3 mt-4">
+                                                                <div class="job-item-logo">
+                                                                    <img src="images/logo.jfif" alt="" class="">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-6 mt-4 mb-4">
+                                                                <div class="job-item-content">
+                                                                    <div class="row">
+                                                                        <div class="col-9">
+                                                                            <h2 class="job-title"> HTML Developer</h2>
+                                                                            <a href="" class="company-name"> Webstrot Technology Pvt. Ltd. </a>
+                                                                        </div>
+                                                                        <div class="col-3">
+                                                                            <div class="job-item-like">
+                                                                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="job-item-pay"> <i class="fa fa-cc-paypal" aria-hidden="true"></i> <strong> $12k - 15k P.A.</strong></div>
+                                                                    <div class="job-item-location"> <i class="fa fa-map-marker" aria-hidden="true"></i> Caliphonia, PO 455001 </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-3 mt-4">
+                                                                <div class="job-item-action">
+                                                                    <a href="#" class="btn btn-job-type">Part Time</a>
+                                                                    <a href="#" class="btn btn-apply">Apply</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-lg-12 mt-3">
+                                                                <div class="job-item-keywords">
+                                                                    <i class="fa fa-location-arrow" aria-hidden="true"></i> Keyword : <span> ui designer, developer, senior </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Card -->
+                                                </div>
+                                                <!--     job item end-->
+                                                <!--       Job item start          -->
+                                                <div class="col-lg-6 mt-5">
+                                                    <!-- Card -->
+                                                    <div class="card job-item">
+                                                        <div class="row">
+                                                            <div class="col-lg-3 mt-4">
+                                                                <div class="job-item-logo">
+                                                                    <img src="images/logo.jfif" alt="" class="">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-6 mt-4 mb-4">
+                                                                <div class="job-item-content">
+                                                                    <div class="row">
+                                                                        <div class="col-9">
+                                                                            <h2 class="job-title"> HTML Developer</h2>
+                                                                            <a href="" class="company-name"> Webstrot Technology Pvt. Ltd. </a>
+                                                                        </div>
+                                                                        <div class="col-3">
+                                                                            <div class="job-item-like">
+                                                                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="job-item-pay"> <i class="fa fa-cc-paypal" aria-hidden="true"></i> <strong> $12k - 15k P.A.</strong></div>
+                                                                    <div class="job-item-location"> <i class="fa fa-map-marker" aria-hidden="true"></i> Caliphonia, PO 455001 </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-3 mt-4">
+                                                                <div class="job-item-action">
+                                                                    <a href="#" class="btn btn-job-type">Part Time</a>
+                                                                    <a href="#" class="btn btn-apply">Apply</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-lg-12 mt-3">
+                                                                <div class="job-item-keywords">
+                                                                    <i class="fa fa-location-arrow" aria-hidden="true"></i> Keyword : <span> ui designer, developer, senior </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Card -->
+                                                </div>
+                                                <!--     job item end-->
+                                            </div>
+                                            <div class="row mt-5">
+                                                <div class="col">
+                                                    <nav aria-label="Page navigation example">
+                                                        <div class="pagination justify-content-center">
+                                                            <span class="page-item"> <a href="#" class="page-link" tabindex="1">Previous</a></span>
+                                                            <span class="page-item"> <a href="#" class="page-link">1</a></span>
+                                                            <span class="page-item"> <a href="#" class="page-link">2</a></span>
+                                                            <span class="page-item"> <a href="#" class="page-link">3</a></span>
+                                                            <span class="page-item"> <a href="#" class="page-link">Next</a></span>
+
+
+
+                                                        </div>
+                                                    </nav>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="javatab">
+                                        <h1 class="job-cat-title"> Part Time </h1>
+                                        <div class="container mt-5">
+                                            <div class="row">
+                                                <!--       Job item start          -->
+                                                <div class="col-lg-6 mt-5">
+                                                    <!-- Card -->
+                                                    <div class="card job-item">
+                                                        <div class="row">
+                                                            <div class="col-lg-3 col-sm-3 mt-4">
+                                                                <div class="job-item-logo">
+                                                                    <img src="images/logo.jfif" alt="" class="">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-6 col-sm-6 mt-4 mb-4">
+                                                                <div class="job-item-content">
+                                                                    <div class="row">
+                                                                        <div class="col-9">
+                                                                            <h2 class="job-title"> HTML Developer</h2>
+                                                                            <a href="" class="company-name"> Webstrot Technology Pvt. Ltd. </a>
+                                                                        </div>
+                                                                        <div class="col-3">
+                                                                            <div class="job-item-like">
+                                                                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="job-item-pay"> <i class="fa fa-cc-paypal" aria-hidden="true"></i> <strong> $12k - 15k P.A.</strong></div>
+                                                                    <div class="job-item-location"> <i class="fa fa-map-marker" aria-hidden="true"></i> Caliphonia, PO 455001 </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-3 mt-4">
+                                                                <div class="job-item-action">
+                                                                    <a href="#" class="btn btn-job-type">Part Time</a>
+                                                                    <a href="#" class="btn btn-apply">Apply</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-lg-12 mt-3">
+                                                                <div class="job-item-keywords">
+                                                                    <i class="fa fa-location-arrow" aria-hidden="true"></i> Keyword : <span> ui designer, developer, senior </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Card -->
+                                                </div>
+                                                <!--     job item end-->
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="fulltime">
+                                        <h1 class="job-cat-title">Full Time</h1>
+                                        <div class="container mt-5">
+                                            <div class="row">
+                                                <!--       Job item start          -->
+                                                <div class="col-lg-6 mt-5">
+                                                    <!-- Card -->
+                                                    <div class="card job-item">
+                                                        <div class="row">
+                                                            <div class="col-lg-3 mt-4">
+                                                                <div class="job-item-logo">
+                                                                    <img src="images/logo.jfif" alt="" class="">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-6 mt-4 mb-4">
+                                                                <div class="job-item-content">
+                                                                    <div class="row">
+                                                                        <div class="col-9">
+                                                                            <h2 class="job-title"> HTML Developer</h2>
+                                                                            <a href="" class="company-name"> Webstrot Technology Pvt. Ltd. </a>
+                                                                        </div>
+                                                                        <div class="col-3">
+                                                                            <div class="job-item-like">
+                                                                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="job-item-pay"> <i class="fa fa-cc-paypal" aria-hidden="true"></i> <strong> $12k - 15k P.A.</strong></div>
+                                                                    <div class="job-item-location"> <i class="fa fa-map-marker" aria-hidden="true"></i> Caliphonia, PO 455001 </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-3 mt-4">
+                                                                <div class="job-item-action">
+                                                                    <a href="#" class="btn btn-job-type">Part Time</a>
+                                                                    <a href="#" class="btn btn-apply">Apply</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-lg-12 mt-3">
+                                                                <div class="job-item-keywords">
+                                                                    <i class="fa fa-location-arrow" aria-hidden="true"></i> Keyword : <span> ui designer, developer, senior </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Card -->
+                                                </div>
+                                                <!--     job item end-->
+                                                <!--       Job item start          -->
+                                                <div class="col-lg-6 mt-5">
+                                                    <!-- Card -->
+                                                    <div class="card job-item">
+                                                        <div class="row">
+                                                            <div class="col-lg-3 mt-4">
+                                                                <div class="job-item-logo">
+                                                                    <img src="images/logo.jfif" alt="" class="">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-6 mt-4 mb-4">
+                                                                <div class="job-item-content">
+                                                                    <div class="row">
+                                                                        <div class="col-9">
+                                                                            <h2 class="job-title"> HTML Developer</h2>
+                                                                            <a href="" class="company-name"> Webstrot Technology Pvt. Ltd. </a>
+                                                                        </div>
+                                                                        <div class="col-3">
+                                                                            <div class="job-item-like">
+                                                                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="job-item-pay"> <i class="fa fa-cc-paypal" aria-hidden="true"></i> <strong> $12k - 15k P.A.</strong></div>
+                                                                    <div class="job-item-location"> <i class="fa fa-map-marker" aria-hidden="true"></i> Caliphonia, PO 455001 </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-3 mt-4">
+                                                                <div class="job-item-action">
+                                                                    <a href="#" class="btn btn-job-type">Part Time</a>
+                                                                    <a href="#" class="btn btn-apply">Apply</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-lg-12 mt-3">
+                                                                <div class="job-item-keywords">
+                                                                    <i class="fa fa-location-arrow" aria-hidden="true"></i> Keyword : <span> ui designer, developer, senior </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Card -->
+                                                </div>
+                                                <!--     job item end-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab_content">
+                                <ul class="nav" role="tablist">
+                                    <li class="active"><a href="#hometab"  role="tab" data-toggle="tab">Featured</a></li>
+                                    <li><a href="#javatab" id="tabBtn" role="tab" data-toggle="tab">Part Time</a></li>
+                                    <li><a href="#fulltime" role="tab" data-toggle="tab">Full Time</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+
+    <section id="testimonials">
+        <div class="testimonials-overly">
+            <h2>What Clients say?</h2>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Carousel indicators -->
+                <!--
+<ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+</ol>   
+-->
+                <!-- Wrapper for carousel items -->
+                <div class="carousel-inner">
+                    <div class="item carousel-item active">
+                        <div class="img-box"><img src="images/logo.jfif" alt=""></div>
+                        <p class="testimonial">Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id lacinia. Etiam faucibus mauris id tempor egestas. Duis luctus turpis at accumsan tincidunt. Phasellus risus risus, volutpat vel tellus ac, tincidunt fringilla massa. Etiam hendrerit dolor eget rutrum.</p>
+                        <p class="overview">Seo Analyst at <a href="#">OsCorp Tech.</a></p>
+                        <div class="star-rating">
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="item carousel-item">
+                        <div class="img-box"><img src="images/logo.jfif" alt=""></div>
+                        <p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum idac nisl bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet.</p>
+                        <p class="overview">Media Analyst at <a href="#">SkyNet Inc.</a></p>
+                        <div class="star-rating">
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="item carousel-item">
+                        <div class="img-box"><img src="images/logo.jfif" alt=""></div>
+                        <p class="testimonial">Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget nisi a mi suscipit tincidunt. Utmtc tempus dictum risus. Pellentesque viverra sagittis quam at mattis. Suspendisse potenti. Aliquam sit amet gravida nibh, facilisis gravida odio. Phasellus auctor velit.</p>
+                        <p class="overview">Web Developer at <a href="#">UI Designer</a></p>
+                        <div class="star-rating">
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star-half-o"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Carousel controls -->
+                <a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                <a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <section id="how-it-work">
+        <div class="mask">
+            <div class="container d-flex h-100">
+                <div class="row d-flex d-block">
+                    <div class="col-12">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <section id="employer" class="employers">
+        <div class="employer">
+            <div class="">
+                <i class="fa fa-desktop fa-10x" aria-hidden="true"></i>
+                <h3> I'm an Candidate </h3>
+                <div class="h3-line"></div>
+                <div class="employers-description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius fugiat id dolorum et, asperiores harum.
+                </div>
+                <div class="btn btn-company mt-5"> <i class="fa fa-plus-circle" aria-hidden="true"></i> Register As Candidate</div>
+            </div>
+        </div>
+        <div class="candidate">
+            <div class="candidate-overly">
+                <div class="">
+                    <i class="fa fa-user-o " aria-hidden="true"></i>
+                    <h3> I'm an Candidate </h3>
+                    <div class="h3-line"></div>
+                    <div class="employers-description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius fugiat id dolorum et, asperiores harum.
+                    </div>
+                    <div class="btn btn-candidate mt-5"> <i class="fa fa-plus-circle" aria-hidden="true"></i> Register As Candidate</div>
+                </div>
+            </div>
+        </div>
+        <div class="mid_set">
+            <div class="mid_set_content">
+                OR
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer class="page-footer font-small ">
+        <!--Footer Links-->
+        <div class="container mt-5 mb-4 text-center text-md-left">
+            <div class="row mt-3">
+                <!--First column-->
+                <div class="col-md-3 col-lg-4 col-xl-3 mb-4 footer">
+                    <div class="footer-logo">
+                        <img src="images/logo.png" alt="">
+                    </div>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit
+                        amet, consectetur adipisicing elit.</p>
+                    <a href="#" class="btn btn-info text-uppercase">Learn more</a>
+                </div>
+                <!--/.First column-->
+                <!--Second column-->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 footer">
+                    <h6 class="footer-title">
+                        <strong>Quick Links</strong>
+                    </h6>
+                    <ul>
+                        <li><i class="fa fa-caret-right" aria-hidden="true"></i> <a href="#">Browse Jobs</a></li>
+                        <li><i class="fa fa-caret-right" aria-hidden="true"></i> <a href="#">Browse Categories</a></li>
+                        <li><i class="fa fa-caret-right" aria-hidden="true"></i> <a href="#">Submit Resume</a></li>
+                        <li><i class="fa fa-caret-right" aria-hidden="true"></i> <a href="#">Candidate Dashboard</a></li>
+                    </ul>
+                </div>
+                <!--/.Second column-->
+                <!--Third column-->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 footer">
+                    <h6 class="footer-title">
+                        <strong>For Candidates</strong>
+                    </h6>
+                    <ul>
+                        <li><i class="fa fa-caret-right" aria-hidden="true"></i> <a href="#">Browse Jobs</a></li>
+                        <li><i class="fa fa-caret-right" aria-hidden="true"></i> <a href="#">Browse Categories</a></li>
+                        <li><i class="fa fa-caret-right" aria-hidden="true"></i> <a href="#">Submit Resume</a></li>
+                        <li><i class="fa fa-caret-right" aria-hidden="true"></i> <a href="#">Candidate Dashboard</a></li>
+                    </ul>
+                </div>
+                <!--/.Third column-->
+                <!--Fourth column-->
+                <div class="col-md-4 col-lg-3 col-xl-3 footer">
+                    <h6 class="footer-title">
+                        <strong>For Employers</strong>
+                    </h6>
+                    <ul>
+                        <li><i class="fa fa-caret-right" aria-hidden="true"></i> <a href="#">Browse Jobs</a></li>
+                        <li><i class="fa fa-caret-right" aria-hidden="true"></i> <a href="#">Browse Categories</a></li>
+                        <li><i class="fa fa-caret-right" aria-hidden="true"></i> <a href="#">Submit Resume</a></li>
+                        <li><i class="fa fa-caret-right" aria-hidden="true"></i> <a href="#">Candidate Dashboard</a></li>
+                    </ul>
+                </div>
+                <!--/.Fourth column-->
+            </div>
+        </div>
+        <!--/.Footer Links-->
+        <!-- Social buttons -->
+        <div class="primary-color">
+            <div class="container" id="btn-footer">
+                <!--Grid row-->
+                <div class="row py-4 d-flex align-items-center">
+
+                    <!--Grid column-->
+                    <div class="col-md-6 col-lg-6 text-center text-md-left mb-4 mb-md-0">
+                        <h6 class="mb-0 white-text">Copyrights 2020 All Right Reserved by <a href="#" target="" class="copyright">Guras Technology Pvt. Ltd.</a></h6>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6 col-lg-6 text-center text-md-right social_link">
+                        <!--Facebook-->
+                        <a class="fb-ic ml-0">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </a>
+                        <!--Twitter-->
+                        <a class="tw-ic">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </a>
+
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+            </div>
+        </div>
+        <!-- Social buttons -->
+
+
+    </footer>
+    <!-- Footer -->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
